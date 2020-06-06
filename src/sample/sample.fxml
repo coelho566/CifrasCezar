@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="encode" layoutX="60.0" layoutY="103.0" prefHeight="200.0" prefWidth="480.0" />
+      <TextArea fx:id="resultado" layoutX="60.0" layoutY="315.0" prefHeight="200.0" prefWidth="480.0" />
+      <Button layoutX="483.0" layoutY="528.0" mnemonicParsing="false" onAction="#decode" text="Decode" />
+      <Button fx:id="btnEncode" layoutX="413.0" layoutY="528.0" mnemonicParsing="false" onAction="#encode" text="Encode" />
+      <TextField fx:id="numero" layoutX="342.0" layoutY="528.0" prefHeight="25.0" prefWidth="55.0" />
+      <Text layoutX="132.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Criptografia de Cezar">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="60.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite o texto">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="218.0" layoutY="546.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insira um numero">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
