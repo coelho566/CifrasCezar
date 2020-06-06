@@ -45,7 +45,7 @@ public class CesarCifras {
             while(textoMin.charAt(i) != cara[x]) {
                 x++;
             }
-            if(x < 14) {
+            if((x + casas) < 26) {
                 encode = encode + cara[x + casas];
             }else {
 
